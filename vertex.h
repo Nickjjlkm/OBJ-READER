@@ -1,6 +1,4 @@
-//
-// Created by angel on 25/11/2025.
-//
+
 
 #ifndef VERTEX_H
 #define VERTEX_H

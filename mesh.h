@@ -1,6 +1,4 @@
-//
-// Created by angel on 25/11/2025.
-//
+
 
 #ifndef MESH_H
 #define MESH_H
