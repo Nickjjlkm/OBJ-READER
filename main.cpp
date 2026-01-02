@@ -56,7 +56,7 @@ int main() {
     Mesh cube = createCube();
 
     sf::Texture cubeTexture;
-    cubeTexture.loadFromFile("./src/gatotextura.jpg");
+    cubeTexture.loadFromFile("");
      cube = Mesh().loadFromObjFile("./src/Sphere.obj");
     float speed = 100.0f;
     sf::Clock clock;
