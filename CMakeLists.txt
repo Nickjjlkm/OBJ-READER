@@ -19,7 +19,8 @@ set(SFML_BUILD_NETWORK FALSE)
 
 FetchContent_MakeAvailable(SFML)
 
-add_executable(3DINTRODUCTION main.cpp)
+
+add_executable(3DINTRODUCTION main.cpp mesh.h vertex.h)
 
 # Enlazar las librerías de SFML
 target_link_libraries(3DINTRODUCTION PRIVATE sfml-graphics sfml-window sfml-system sfml-audio)
